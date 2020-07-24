@@ -6,7 +6,7 @@
 
 - Header ile kapsayici'nin sınırları belirlendi.
 - Yatay menü oluşturuldu.
-- 1. section ile başlık atıldı ve site hakkında kısa bilgi verildi.
+- 1 section ile başlık atıldı ve site hakkında kısa bilgi verildi.
 - Sol üstteki başlık içerisinde geçen "Türkiye" yazısı ve menüler için linkler oluşturuldu.
 
 
@@ -16,7 +16,7 @@
 
 ###2.Bölüm
 
-- 2. bölümde 1 section 1 kapsayici ve 2 div kullanıldı.
+- Bu bölümde 1 section 1 kapsayici ve 2 div kullanıldı.
 - Soldaki div başlık ve metin, sağdaki divde sadece metin bulunmaktadır.
 
 
@@ -64,7 +64,7 @@
 
 ###5.Bölüm
 
-- Son bölüm 100½ genişliği olan bir divin içinde paralax efekti olan bir resim, divin içerisinde buton ve en altta footer bölümünden oluşmaktadır.
+- Son bölüm 100% genişliği olan bir divin içinde paralax efekti olan bir resim, divin içerisinde buton ve en altta footer bölümünden oluşmaktadır.
 
 
 
