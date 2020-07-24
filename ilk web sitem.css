@@ -1,0 +1,413 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+header.birinci {
+	background: url(resimler/nehir2.jpg);
+	margin: 0;
+	padding: 0;
+	position: relative;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+header h1 {
+	position: relative;
+	font-size: 30px;
+	margin-left: 30px;/*soldan bu kadar*/
+	top: 50px;/*yukarıdan bu kadar*/
+	color: white;
+	font-weight: 400;/*yazı kalınlığı*/
+	text-transform: uppercase; /*yazılarım büyük harf olsun*/
+}
+header a {
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+}
+header a:hover {
+	color: #3F7C7C;
+}
+header ul {
+	list-style: none;
+	position: relative;
+	float: right;
+	padding: 0;
+	right: 20px;/*sağdan 20px boşluk bırak*/
+}
+header ul li {
+	display: block;
+	float: left;/*yan yana sırala*/
+}
+header ul li a {
+	/*burası menü yazısının nasıl görüneceğini ayarlar*/
+	display: block;
+	padding: 20px 15px;
+	background: rgba(27,105,96,0.5);
+	color: white;
+	border-radius: 20px;
+	font-size: 16px;
+	width: 120px;
+	height: 20px;
+	text-align: center;
+}
+header ul li a:hover {
+	background: rgba(185,185,185,0.8);
+	color: #00004A;
+	transition-duration: 0.5s;
+}
+header #Bolum1 {
+	width: 100%;
+	position: absolute;
+	top: 40%;
+	text-align: center;
+}
+#Bolum1 h2 {
+	font-size: 35px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color: white;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+#Bolum1 p {
+	font-size: 25px;
+	color: white;
+	font-weight: 400;
+	line-height: 40px;
+	letter-spacing: 2px;
+}
+#Bolum2 {
+	width: 1000px;
+	margin: 0 auto;/*olsun ki ortalansın*/
+	padding: 50px 0;
+}
+.kapsayici {
+	width: 1000px;
+	margin: 0 auto;/*olsun ki ortalansın*/
+}
+#Bolum2 .kapsayici .sol {
+	width: 400px;
+	float: left;
+	padding-left: 70px;/*sol iç boşluk*/
+}
+#Bolum2 h2 {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 40px;
+	font-weight: 600;
+	color: #373737;
+	line-height: 40px;
+}
+#Bolum2 .sol p {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 20px;
+	color: #282828;
+	letter-spacing: 2px;/*harfler arası boşluk*/
+	font-weight: 100;
+	margin-top: 20px;/*yukarıdan dış boşluk*/
+	line-height: 25px;/*satırlar arası boşluk*/
+}
+#Bolum2 .kapsayici .sag {
+	width: 400px;
+	float: right;
+	padding-right: 40px;/*sağdan bu kadar iç boşluk */
+	margin-left: 20px;/*soldan bu kadar dış boşluk*/
+}
+#Bolum2 .kapsayici .sag p {
+	line-height: 25px;
+	font-size: 18px;
+	letter-spacing: 1px;
+	color: black;
+	font-weight: 200;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+/*bir sonraki bölüme koyacağım yazılar veya resimlerimin section 2 ye 
+gelmesini istemiyorum o zaman class="temizle" diye bir class tanımlayacağım
+bir sectionın bittiği diğer section ın başladığı kısma tanımlarım html kodunda*/
+
+
+.temizle{
+	clear:both;
+	}
+/*yaparsam section 2 nin sonuna eklediğim resimler yazılar section2 ye dokunmayack altında olacal*/
+
+#Bolum3{
+	width:100%;
+	margin:0 auto;
+	padding:50px 0;
+	/*background: #1E1E1E;*/
+}
+#Bolum3 .kapsayici2{
+	width:1100px;
+	margin:0 auto;	
+}
+#Bolum3 .resim{
+	width:500px;
+	float:left;
+	background:#fff;/*resimlerle ilgili açıklamanın olduğu örn:kapadokya vb kısımların rengi*/
+	margin:40px 15px;
+	border: 1px solid #ccc;
+	box-shadow: 2px 2px 7px #ccc;
+}
+#Bolum3 img{
+	width:500px;
+	margin:0;
+}
+
+#Bolum3 .resim p{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:16px;
+	text-align:center;
+	font-weight:350;
+	letter-spacing:1px;
+	margin:40px 0;/*yazının içindeki kutucuk büyüdü*/
+	text-align:center;
+}
+
+#Bolum3 ul{
+	list-style:none;/*başındaki noktaları kaldırsın*/
+	margin-left:350px;/*butonları ortaya getirdik*/
+}
+
+#Bolum3 ul li{
+	display:inline-block;/*linklerin yan yana gelmesini sağladım*/
+	margin-right:70px;/*linklerin birbirinden ayrılmasını sağladık*/
+}
+
+#Bolum3 ul li a{
+	/*asıl olay burada bitiyor*/
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:18px;
+	font-weight:300;
+	letter-spacing:1px;
+	text-decoration:none;
+	text-align:center;
+	display:block;
+	padding:20px 50px;
+	background: #0B8071;
+	color:white;
+	border-radius:30px;
+
+}
+
+#Bolum3 ul li a:hover{
+	color: #001A33;
+	background:#CCC;
+	transition-duration: 0.5s;
+}
+
+#Bolum3 ul li:nth-child(2) a{
+	background:#353535;
+	/*istediğim şey butonlarının renklerinin birbirinden farklı olması o yüzden 
+	listenin ikinci elemanının rengini seçip değiştirdim*/
+}
+
+
+#Bolum3 ul li:nth-child(2) a:hover{
+	color: #001A33;
+	background:#CCC;
+	transition-duration: 0.5s;
+}
+
+#Bolum4{
+	width:1000px;;
+	padding-top:50px;
+	margin-left:160px;
+}
+
+#Bolum4 h2{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-weight:400;
+	font-size:30px;
+	color: #494949;
+	margin-bottom:60px;
+	background:#EDEDED;
+	box-shadow:2px 2px 7px #ccc;
+	border:1px solid #ccc;
+	width:100%;
+	height:70px;
+	
+}
+/*#Bolum4 .kapsayici3{
+	width:1000px;
+	margin:0 auto;
+} bunu yapmama gerek yok çünkü class kapsayici yazarım yukarıda kapsayicinin ayarlamasını yapmıştık onu kullanır*/
+
+#Bolum4 .bolumler{
+	width:450px;
+	float:left;
+	margin-bottom:30px;
+	margin-right:20px;
+	margin:20px;
+	
+}
+
+#Bolum4 .bolumler .kucukresim{
+	float:right;
+	width:130px;/*küçük yuvarlak resimlerin boyutu*/
+	margin:10px;
+}
+
+#Bolum4 .bolumler .kucukresim img{
+	border:5px solid #ccc;
+	border-radius:100%;/*tamamen yuvarlak olsun*/
+	width:130px;/*küçük yuvarlar resimlerin boyutu*/
+}
+
+#Bolum4 .bolumler .yazi{
+	float:left;
+	width:280px;
+	text-align:right;
+	padding:10px;
+	line-height:25px;
+	
+}
+
+#Bolum4 .bolumler h3{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:23px;
+	font-weight:500;
+	text-align:right;
+	color:#303030;
+	margin-bottom:10px;
+}
+
+#Bolum4 .bolumler p{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:18px;
+	font-weight:300;
+	color:black;
+	margin-bottom:20px;
+	
+}
+
+/*şimdi 2. ve 4. resimleri sol tarafa yatık yapacağım ki simetrik görünsün*/
+
+#Bolum4 .bolumler:nth-child(3) .yazi{
+	text-align:left;
+}
+
+#Bolum4 .bolumler:nth-child(3) .yazi h3{
+	text-align:left;
+}
+
+#Bolum4 .bolumler:nth-child(3) .kucukresim{
+	float:left;
+}
+
+
+#Bolum4 .bolumler:nth-child(5) .yazi{
+	text-align:left;
+}
+
+#Bolum4 .bolumler:nth-child(5) .yazi h3{
+	text-align:left;
+}
+
+#Bolum4 .bolumler:nth-child(5) .kucukresim{
+	float:left;
+}
+
+
+#Bolum5{
+	width:100%;/*genişliği tamamen kaplayacak*/
+	height:350px;/*yüksekliği tamamen kaplamayacak ekranın belirli bir bölünü kaplayacak*/
+	background: url(resimler/istanbul2.jpg);
+	background-attachment:fixed;
+	background-size:cover;
+	position:relative;
+}
+
+#Bolum5 .icerik{
+	position:absolute;
+	width:100%;
+	top:50%;
+	text-align:center;
+	transform:translateY(-50%);/* y ekseninde yukarı çıkmasını sağladı*/
+}
+
+#Bolum5 .icerik h2{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-weight:600;
+	font-size:36px;
+	text-align:center;
+	margin-bottom:30px;
+	color:white;
+}
+
+#Bolum5 .icerik p{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-weight:400;
+	font-size:18px;
+	color:#D9D9D9;
+	margin-bottom:50px;
+}
+
+#Bolum5 .icerik a{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-weight:500;
+	font-size:25px;
+	color:white;
+	border-radius:20px;
+	/*burası orayı buton haline getirmemi sağlayacak(bu iki satır)*/
+	display:inline-block;
+	padding:20px 35px;
+	
+	background:#39B096;
+	color:white;
+	text-decoration:none;
+}
+
+#Bolum5 .icerik a:hover{
+	background:#C9C9C9;
+	color: #494949;
+	transition-duration: 0.5s;
+	
+}
+
+footer{
+	width:100%;
+	height:350px;
+	text-align:center;
+}
+
+footer .sonbolum{
+	position:relative;
+	text-align:center;
+	top:50%;
+	transform:translateY(-50%);
+}
+
+
+
+footer .sonbolum ul{
+	list-style: none;
+	text-align:center;
+	position: relative;
+	top:50%;
+	margin-left:480px;
+	margin-top:20px;
+	transform:translateY(-50%;)
+	
+}
+
+footer .sonbolum  ul li{
+	display:inline-block;
+	float:left;
+	margin-right:25px;
+	
+}
+
+footer .sonbolum  ul li p{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:22px;
+	color:dark gray;
+	font-weight:300;
+	margin-right:15px;
+	
+}
+
+footer .sonbolum  ul li:nth-child(-n+2){
+	border-right:2px solid #ccc;
+}
