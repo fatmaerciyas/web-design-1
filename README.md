@@ -1,8 +1,8 @@
-#web-design-1
+# web-design-1
 
-##Anasayfa
+## Anasayfa
 
-###1.Bölüm
+### 1.Bölüm
 
 - Header ile kapsayici'nin sınırları belirlendi.
 - Yatay menü oluşturuldu.
@@ -14,7 +14,7 @@
 
 
 
-###2.Bölüm
+### 2.Bölüm
 
 - Bu bölümde 1 section 1 kapsayici ve 2 div kullanıldı.
 - Soldaki div başlık ve metin, sağdaki divde sadece metin bulunmaktadır.
@@ -26,7 +26,7 @@
 
 
 
-###3.Bölüm 
+### 3.Bölüm 
 
 - 2 ayrı görsel 2 ayrı divde istenilen ebatlara göre şekillendirildi.
 - Ardından altlarına açıklama ve etrafa çerçeve eklendi.
@@ -39,7 +39,7 @@
 
 
 
-###3'ten 4'e geçiş
+### 3'ten 4'e geçiş
 
 - Bir başlık,etrafında divi ve divinin görüntüleri ayarlandı.
 
@@ -49,7 +49,7 @@
 
 
 
-###4.Bölüm
+### 4.Bölüm
 
 - 1 section'ın içinde 1 kapsayıcı ve 4 farklı div kullanıldı.
 - Divlerin herbirinin içinde metin ve resim olmak üzere 2'şer bölüm daha kullanıldı.
@@ -62,7 +62,7 @@
 
 
 
-###5.Bölüm
+### 5.Bölüm
 
 - Son bölüm 100% genişliği olan bir divin içinde paralax efekti olan bir resim, divin içerisinde buton ve en altta footer bölümünden oluşmaktadır.
 
@@ -72,12 +72,12 @@
 
 
 
-##Görseller
+### Görseller
 
 - Görsellerin her birinde paralax efekti kullanıldı.
 
 
-##Kaynakça
+### Kaynakça
 
 - "Fotoğraflar" ve "Yazılar" olmak üzere neyi hangi siteden aldığım butonlar halinde kaynakça kısmına konuldu.
 
@@ -90,7 +90,7 @@
 
 
 
-##Hakkımda
+### Hakkımda
 
 - Normalde site hangi işletmeye aitse ona ait bilgiler içeren kısımdır. Benim ilk web tasarımım olduğu için kendim hakkında bilgi vermek istedim :)
 
